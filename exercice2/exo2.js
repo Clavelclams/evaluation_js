@@ -1,0 +1,1 @@
+function tableMultiplication(7)
