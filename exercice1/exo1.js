@@ -1,0 +1,3 @@
+var age = parseInt (prompt('Entrer un âge :'));
+var jeunes = 0;
+var moyens = 0;
