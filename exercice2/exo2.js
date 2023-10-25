@@ -4,5 +4,5 @@ function tableMultiplication(nombre){
         alert(i+' x '+nombre+' = '+resultat);
     }
 }
-tableMultiplication(7)
-console.log(i+' x '+nombre+' = '+resultat)
+tableMultiplication(7);
+console.log(i+' x '+nombre+' = '+resultat);
