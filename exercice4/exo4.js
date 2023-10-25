@@ -4,12 +4,12 @@ var TOT = PU * QTECOM;
 var REM = 0;
 var PORT = 0;
 if (TOT >= 100 && TOT <= 200){
-    REM = TOT * 5% ;
+    REM = TOT * 0.05;
 } else if (TOT > 200) {
-    REM = TOT * 10% ;
+    REM = TOT * 0.10 ;
 }
 if (TOT <= 500) {
-    PORT = Math.max(6, TOT * 2%);
+    PORT = Math.max(6, TOT * 0.02);
 }
 var PAP = TOT - REM + PORT;
 console.log("Prix unitaire : " + PU + " euros");
