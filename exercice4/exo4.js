@@ -1,0 +1,1 @@
+var PU = parseFloat(prompt('Saisissez le prix unitaire du produit (en euro) '));
