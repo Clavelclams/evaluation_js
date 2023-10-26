@@ -15,10 +15,12 @@
                 <fieldset>
                     <legend>Vos Coordonnées</legend>
                     <label for="nom">Nom*</label>
-                    <input type="text" name="nom" id="nom" required>
+                    <input type="text" name="nom" id="nom">
+                    <p style="color: red;" id="erreur"></p>
                     <br>
                     <label for="prenom">Prénom*:</label>
                     <input type="text" id="prenom" name="prenom" required>
+                    <p style="color: red;" id="erreur"></p>
                     <br>
                     <span>Sexe*:</span>
                     <input type="radio" id="homme" name="sexe" value="Homme" required>
@@ -28,9 +30,11 @@
                     <br>
                     <label for="date_naissance">Date de naissance*:</label>
                     <input type="date" name="date_naissance" id="date_naissance">
+                    <p style="color: red;" id="erreur-dtn"></p>
                     <br>
                     <label for="code_postal">Code postal*:</label>
                     <input type="text" id="code_postal" name="code_postal" required>
+                    <p style="color: red;" id="erreur-cp"></p>
                     <br>
                     <label for="adresse">Adresse:</label>
                     <input type="text" id="adresse" name="adresse">
@@ -40,6 +44,7 @@
                     <br>
                     <label for="email">E-mail*:</label>
                     <input type="email" id="email" name="email" required>
+                    <p style="color: red;" id="erreur-email"></p>
                     <br>
                 </fieldset>
                 <fieldset>
@@ -58,6 +63,7 @@
                     <br>
                 </fieldset>
                 <input type="checkbox" name="accepter" id="accepter" value="accepte" required>
+                <p style="color: red;" id="erreur-accepter"></p>
                 <label for="accepter">J'accepte le traitement informatique de ce formulaire</label>
                 <br>
                 <input type="submit" value="Envoyer">
